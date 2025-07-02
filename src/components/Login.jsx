@@ -1,14 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Login = () => {
+  // const[data,setData] = useState
   return (
-    <div>
-        <h1>Login Form</h1>
+    <div className='' >
+        <h1 className='text-[30px] text-blue-700 text-center'>Login Form</h1>
         <div>
-            <input type="text" placeholder='Email Address' />
+            <input className='border-2 ' type="text" placeholder='Email Address' />
         </div>
         <div>
-            <input type="password" placeholder='Password' />
+            <input className='border-2' type="password" placeholder='Password' />
         </div>
         <p>Forgot password?</p>
         <button>Login</button>
