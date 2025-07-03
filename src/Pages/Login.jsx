@@ -16,7 +16,7 @@ const Login = () => {
         <button className='border-1 mb-5 font-mono px-18 py-1 text-white bg-blue-500 cursor-pointer rounded-[10px] hover:bg-blue-600'>Login</button>
         <p className='font-semibold'>Not a member? <span className='text-blue-400'> Signup now</span></p>
     </div>
-    </div>
+   </div>
 
   )
 }
