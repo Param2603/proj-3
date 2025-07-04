@@ -2,7 +2,7 @@ import React from 'react'
 
 const Signup = () => {
   return (
-    <div className='px-5 border-1 w-100 py-5 '>
+    <div className='px-5 w-100% h-[100vh] justify-center items-center flex flex-col align-ce py-5'>
       <h1 className='text-[30px] text-gray-900 font-bold font-serif  mb-10'>Signup Form</h1>
       <div>
         <input className='border-2 border-gray-300 hover:border-gray-400 mb-5 rounded-[7px] px-1 py-1' type="text" placeholder='Email Address' />
